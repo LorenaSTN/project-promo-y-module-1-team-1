@@ -1,0 +1,30 @@
+.header-title {
+background-color: #099d8d;
+padding: 15px;
+text-align: center;
+color: white;
+}
+
+.nav {
+background-color: #14d9c4;
+color: white;
+font-size: 15px;
+position: sticky;
+}
+
+.lista {
+    display: flex;
+    padding: 7px;
+}
+
+.foto {
+    background-color: rgb(255, 255, 255);
+    height: 30vh;
+}
+.title {
+    color: #099d8d;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+}
+
