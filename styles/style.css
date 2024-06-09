@@ -1,20 +1,26 @@
-.header-title {
-background-color: #099d8d;
-padding: 15px;
-text-align: center;
-color: white;
+.header {
+    background-color: #099d8d;
+    text-align: center;
+    color: white;
 }
 
-.nav {
-background-color: #14d9c4;
-color: white;
-font-size: 15px;
-position: sticky;
+.container {
+    padding: 15px;
+}
+
+nav {
+    background-color: #14d9c4;
+    color: white;
+    font-size: 15px;
+    position: sticky;
+    padding: 15px;
 }
 
 .lista {
     display: flex;
-    padding: 7px;
+    text-decoration-style: none;
+    list-style-type: none;
+    
 }
 
 .foto {
