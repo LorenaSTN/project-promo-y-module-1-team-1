@@ -31,8 +31,13 @@ nav {
     list-style-type: none;
     justify-content: space-between;
     font-family: var(--font-title);
-    color: white;
+   
     font-size: 15px;
+}
+
+.li a {
+    text-decoration: none ;
+    color: white;
 }
 
 .photo {
@@ -112,6 +117,10 @@ nav {
 
 .footer-contact img {
     width: 115.9px;
+}
+
+.logo {
+    margin-left: 102px;
 }
 
 
