@@ -1,7 +1,19 @@
+/* LAURA */
+:root {
+    --font-title: "Rubik", sans-serif;
+    --font-body: "Open Sans", sans-serif;
+    --font-color-tittle: #14d9c4;
+}
+
+
+
 .header {
     background-color: #099d8d;
     text-align: center;
     color: white;
+    font-family: var(--font-title);
+    font-size: 8px;
+    line-height: 30px;
 }
 
 .container {
@@ -30,16 +42,11 @@ nav {
 .title {
     color: #099d8d;
     text-align: center;
+    font-family: var(--font-title);
     font-size: 24px;
     padding: 30px;
 }
 
-/* LAURA */
-:root {
-    --font-title: "Rubik", sans-serif;
-    --font-body: "Open Sans", sans-serif;
-    --font-color-tittle: #14d9c4;
-}
 
 
 
