@@ -123,6 +123,26 @@ nav {
     margin-left: 102px;
 }
 
+/* Yesseia navegador*/
+
+.nommbre-de-grupo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #099d8d;
+    --font-title: "Rubik", sans-serif;
+}
+.navegador-elementos{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    --font-title: "Rubik", sans-serif;
+}
+.elemento-padre-navegador{
+    padding: 0;
+    font-family: var(--font-title);
+}
+
 
 /*PARA CENTRAR :Esta solucion de container sale en el video de mobile first de los apuntes, añadir un div.container*/
 
