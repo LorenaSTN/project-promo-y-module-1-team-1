@@ -138,13 +138,30 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    font-family: var(--font-title);
     
 }
 .elemento-padre-navegador{
     padding: 0;
+    margin-bottom: 50px;
+}
+.nombre-grupo{
+    color: white;
     font-family: var(--font-title);
-    font-size: large;
-    
+    font-weight: 700;
+    font-size: larger;
+}
+.navegador-elementos{
+    color: white;
+    font-family: var(--font-title);
+    font-weight: 500; 
+    font-size: larger;
+}
+.nombre-grupo{
+    cursor: pointer;
+}
+.elementos-navegador{
+    cursor: pointer;
 }
 
 
@@ -243,7 +260,7 @@ nav {
     margin: 0 auto;
     z-index: 1;
     transform: rotate(45deg);
-    bottom: -30px;
+    bottom: -10px;
 }
 .elemento-gris-contactos{
     background:#b8b8b9;
@@ -255,7 +272,6 @@ nav {
     width: 100%;
     max-width: 300px;
     /* ------ */
-    height: 700px;
     padding: 30px 15px;
     margin: 0 auto;
 }
