@@ -210,12 +210,16 @@ nav {
 }
 .texto-equipo{
     font-family: var(--font-title);
-    color: white;
+    color: #54585a;
     padding-bottom: 20px;
     text-align: center;
     font-size: 18px;
     line-height: 1.5;
 }
+.title-2{
+    color: #099d8d;
+}
+
 
 @media screen and (min-width: 300px) {
 /* Mobile+ */
