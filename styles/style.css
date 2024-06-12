@@ -125,6 +125,26 @@ nav {
     margin-left: 102px;
 }
 
+/* Yesseia navegador*/
+
+.nommbre-de-grupo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #099d8d;
+    --font-title: "Rubik", sans-serif;
+}
+.navegador-elementos{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    --font-title: "Rubik", sans-serif;
+}
+.elemento-padre-navegador{
+    padding: 0;
+    font-family: var(--font-title);
+}
+
 
 /*LAURA*/
 
@@ -214,14 +234,14 @@ nav {
 /* Yessenia*/
 
 .elemento-flotante{
-    background: lightpink;
+    background: white;
     height: 80px;
     width: 80px;
     position: relative;
     margin: 0 auto;
     z-index: 1;
     transform: rotate(45deg);
-    bottom: -40px;
+    bottom: -30px;
 }
 .elemento-gris-contactos{
     background:#b8b8b9;
@@ -233,10 +253,22 @@ nav {
     width: 100%;
     max-width: 300px;
     /* ------ */
-    height: 620px;
+    height: 700px;
     padding: 30px 15px;
     margin: 0 auto;
 }
+.texto-equipo{
+    font-family: var(--font-title);
+    color: #54585a;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.title-2{
+    color: #099d8d;
+}
+
 
 @media screen and (min-width: 300px) {
 /* Mobile+ */
