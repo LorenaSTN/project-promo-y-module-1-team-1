@@ -1,9 +1,11 @@
-/* LAURA */
+
 :root {
     --font-title: "Rubik", sans-serif;
     --font-body: "Open Sans", sans-serif;
     --font-color-tittle: #14d9c4;
 }
+
+/*LORENA CONTACT-US*/
 
 .container {
     padding: 15px;
@@ -144,63 +146,90 @@ nav {
 }
 
 
-/*PARA CENTRAR :Esta solucion de container sale en el video de mobile first de los apuntes, añadir un div.container*/
+/*LAURA*/
 
-/*.container {
-    margin: 0 15px;
-}*/
+/*ELEMENTO FLOTANTE EN IMAGEN DE CABECERA*/
 
-/*Aquí he tenido que creear un nuevo contenedor para la section-2, pero si pongo margin: 0 auto; en el mismo section parece que también se centra*/
+.float-header {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50px);
+    /*esta propiedad aqui o en el div float header*/
+}
 
-.section-2 {
+
+.div-float-header {
+
+    width: 350px;
+    background-color: white;
+    padding: 15px;
+
+}
+
+.tittle-float-header {
+
+    font-family: var(--font-body);
+    font-size: 22px;
+    text-align: center;
+    font-weight: 645;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    color: var(--font-color-subtitle)
+}
+
+/*SECCIÓN EQUIPO*/
+
+.section-equipo {
+
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 360px;
-    height: 620px;
-    padding: 30px 15px;
-    margin: 0 auto;
+    padding: 0px 15px;
+    margin: 0px auto;
 
 }
 
-.title-2 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.title-equipo {
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 24px;
     text-align: center;
     color: var(--font-color-tittle);
     font-family: var(--font-title);
     font-weight: 500;
+
+
+
 }
 
-.parrafo-lorem-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
+.text-equipo-1 {
+
+    padding: 15px 10px;
     width: 340px;
-    height: 250px;
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
-    color: #54585a;
+    color: var(--font-color-body);
     align-self: center;
     font-family: var(--font-body);
+
 }
 
-.parrafo-vivamus-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
+.text-equipo-2 {
+    padding: 15px 10px;
     width: 340px;
-    height: 230px;
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
-    color: #54585a;
+    color: var(--font-color-body);
     align-self: center;
     font-family: var(--font-body);
-}
+} 
+
+
 
 /* Yessenia*/
 
