@@ -130,17 +130,19 @@ nav {
     justify-content: center;
     padding: 20px;
     background-color: #099d8d;
-    --font-title: "Rubik", sans-serif;
+    font-family: "Rubik", sans-serif;;
 }
 .navegador-elementos{
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    --font-title: "Rubik", sans-serif;
+    
 }
 .elemento-padre-navegador{
     padding: 0;
     font-family: var(--font-title);
+    font-size: large;
+    
 }
 
 
