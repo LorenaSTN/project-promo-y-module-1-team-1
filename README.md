@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
 # Adalab web starter kit
@@ -123,3 +124,5 @@ src
 ## Falta algo?
 
 Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+=======
+>>>>>>> 618b3ef4473e6c32f022921a3e80a9dd215694e2
