@@ -8,8 +8,9 @@
   padding-top: 160px;
 }
 
+//Estilos header
 
-header {
+.header {
   width: 100%;
   position: sticky;
   position: absolute;
@@ -17,7 +18,7 @@ header {
   
 }
 .header-title {
-  background: #099d8d;
+  background: $fontHeader;
   display: flex;
   justify-content: center;
   padding: 40px;
@@ -35,19 +36,26 @@ header {
   color: white;
   font-family: $fontTitle;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px;
   font-weight: 500;
   opacity: $opacity;
 }
-.span1 {
+.list {
   display: flex;
+  gap: 30px;
+  font-family: var(--font-title);
+
+  font-size: 15px;
 }
 
-.span2 {
-  width: 141px;
-  height: 40px;
+.list-item a {
+  color: white;
+
 }
+
+
+
 
 //Estilos subtitulo blanco flotante
 
@@ -79,4 +87,27 @@ header {
   font-style: normal;
   line-height: 1.39;
   color: var(--font-color-subtitle)
+}
+
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-color: $fontHeader;
+    display: flex;
+    justify-content: space-between;
+    height: 84px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: $fontHeader;
+    
+  }
+
+  
+  
+
+
 }
