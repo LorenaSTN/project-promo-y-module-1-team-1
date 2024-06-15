@@ -1,42 +1,91 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="./assets/main-34fbd245.css">
+</head>
+<body>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Otra página del starter kit</h1>
-</header>
 
-      <main>
-        <p>
-          Esta es otra segunda página del Starter kit. Mira el fichero
-          <code class="code">./src/html/partials/main.html</code> para cómo hemos creado el enlace
-          que te ha traído hasta aquí.
-        </p>
-        <p>
-          <a class="link__adalab" href="./index.html">Volver a la página principal</a>
+    <header class="header">
+        <div class="photo">
+            
+                <h1 class="title">NOMBRE DEL GRUPO</h1>
+            <nav>
+                <ul class="lista">
+                    <li class="li"> <a href="">EQUIPO</a></li>
+                    <li class="li"> <a href="">QUIENES SOMOS</a></li>
+                    <li class="li"> <a href="">CONTACTO</a></li>
+                </ul>
+            </nav>
+           
+        </div>
+    </header>
 
-        </p>
-      </main>
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <main>  
+        <section class="contact"> 
+            <div class="container">
+                <h2>CONTACTO</h2>
+            
+                    <p class="contact-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <p class="contact-2"> Todos los campos marcados con <span class="obligatory">*</span> son obligatorios.</p>
 
-  </small>
-</footer>
+            </div>
+        </section>
+        
+        <section class="form">
+            <div class="container">
 
-    </div>
-    <script src="./js/main.js"></script>
-  </body>
+                 <form action="" >
+
+                    <label for="Nombre">
+                        <span>Nombre Completo <span class="obligatory">*</span></span> <br>
+                        <input type="text" placeholder="Nombre..." id="Nombre">
+
+                    </label> <br>
+
+                    <label for="email">
+                        <span>Email <span class="obligatory">*</span></span> <br>
+                        <input type="email" placeholder="Email" id="email">
+                    </label> <br>
+
+                    <label for="telefono">
+                        <span>Teléfono</span> <br>
+                        <input type="text" placeholder="Ej.123456789" id="telefono">
+                    </label> <br>
+
+                    <label for="mensaje">
+                        <span>Mensaje</span> <br>
+                        <input type="text" class="input__mensaje" placeholder="¿Qué necesitas?" id="mensaje">
+                    </label>
+
+                </form>
+
+                <button class="button">ENVIAR</button>
+            </div>
+        </section>
+            
+    </main>
+
+    <footer class="footer-contact">
+        <p class="footer-1">Nombre del grupo © 2024</p>
+
+        <p class="footer-2">EQUIPO <br>QUIENES SOMOS <br>CONTACTO</p>
+
+        <img class="logo" src="./images/logo-adalab.png" alt="Logo Adalab">
+
+    </footer>
+
+
+    
+</body>
 </html>
