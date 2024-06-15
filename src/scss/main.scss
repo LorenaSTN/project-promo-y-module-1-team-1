@@ -1,21 +1,8 @@
-<<<<<<< HEAD
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
-=======
-:root {
-    --font-title: "Rubik", sans-serif;
-    --font-body: "Open Sans", sans-serif;
-    --font-color-tittle: #14d9c4;
-}
+@import "layout/variables.scss";
+@import "layout/header";
 
 /* Shama  */
-.header {
+/* .header {
     background-colgit 0);
     text-align: cegit 
     color: white;git 
@@ -24,24 +11,8 @@
     line-height: 30px;
     
 }
+    */
 
-.nav{
-    background: rgb(64, 224, 208,0.90);
-    text-align: var();
-    display: flex;
-    color: white
-    grid-gap;
-
-}
-.span1{
-    display: flex;
-
-}
-
-.span2{
-    width: 141px;
-    height: 40px;
-}
 
  /* fin apartado Shama  */
 
@@ -323,4 +294,3 @@
 @media screen and (min-width: 1200px) {
 /* Desktop */
 }
->>>>>>> 618b3ef4473e6c32f022921a3e80a9dd215694e2

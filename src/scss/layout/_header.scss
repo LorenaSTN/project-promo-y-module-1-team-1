@@ -1,5 +1,32 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+
+.header{
+background: #099d8d;
+display: flex;
+justify-content: center;
+padding: 40px;
+font-family: $fontTitle;
+color: white;
+font-weight: 500;
+
 }
+
+.nav{
+  background: rgb(64, 224, 208,0.90);
+  display: flex;
+  color: white;
+  font-family: $fontTitle;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+.span1{
+  display: flex;
+
+}
+
+.span2{
+  width: 141px;
+  height: 40px;
+}
+
