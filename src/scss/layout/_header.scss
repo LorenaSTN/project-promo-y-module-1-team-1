@@ -1,6 +1,7 @@
 header {
   position: sticky;
   top: 0;
+  z-index: 3;
 }
 .header-title {
   background: #099d8d;
@@ -12,11 +13,11 @@ header {
   font-weight: 500;
   opacity: $opacity;
   position: sticky;
-  font-size: medium;
+  font-size: large;
 }
 
 .nav {
-  background: rgb(64, 224, 208, 0.9);
+  background: rgb(64, 224, 208);
   display: flex;
   color: white;
   font-family: $fontTitle;
