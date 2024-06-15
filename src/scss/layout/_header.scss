@@ -1,32 +1,36 @@
-
-.header{
-background: #099d8d;
-display: flex;
-justify-content: center;
-padding: 40px;
-font-family: $fontTitle;
-color: white;
-font-weight: 500;
-
+header {
+  position: sticky;
+  top: 0;
+}
+.header-title {
+  background: #099d8d;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-family: $fontTitle;
+  color: white;
+  font-weight: 500;
+  opacity: $opacity;
+  position: sticky;
+  font-size: medium;
 }
 
-.nav{
-  background: rgb(64, 224, 208,0.90);
+.nav {
+  background: rgb(64, 224, 208, 0.9);
   display: flex;
   color: white;
   font-family: $fontTitle;
   display: flex;
   justify-content: space-between;
   padding: 20px;
-
+  font-weight: 500;
+  opacity: $opacity;
 }
-.span1{
+.span1 {
   display: flex;
-
 }
 
-.span2{
+.span2 {
   width: 141px;
   height: 40px;
 }
-
