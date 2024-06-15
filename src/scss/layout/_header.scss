@@ -1,8 +1,19 @@
+// estilos imagen
+.img {
+  width: 100%;
+}
+
+
+
 header {
+  width: 100%;
   position: sticky;
   top: 0;
   z-index: 3;
 }
+
+
+
 .header-title {
   background: #099d8d;
   display: flex;
@@ -34,4 +45,36 @@ header {
 .span2 {
   width: 141px;
   height: 40px;
+}
+
+//Estilos subtitulo blanco flotante
+
+.section-div-lorem {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50px);
+  
+
+}
+
+
+.div-lorem {
+
+  width: 75%;
+  background-color: rgba(247, 245, 245, 0.555);
+  padding: 15px;
+
+}
+
+.h2 {
+
+  font-family: var(--font-body);
+  font-size: 18px;
+  text-align: center;
+  /*En el ejemplo no se ve alineado del todo*/
+  font-weight: 645;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  color: var(--font-color-subtitle)
 }

@@ -1,0 +1,146 @@
+.container {
+    padding: 15px;
+}
+
+
+.title {
+    padding: 15px;
+    height: 60px;
+    font-size: 16px;
+    font-family: var(--font-title);
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    background-color: #099d8d;
+}
+
+nav {
+    background-color: #14d9c4;
+    position: sticky;
+    padding: 15px;
+}
+
+.lista {
+    display: flex;
+    text-decoration-style: none;
+    list-style-type: none;
+    justify-content: space-between;
+    font-family: var(--font-title);
+   
+    font-size: 15px;
+}
+
+.li a {
+    text-decoration: none ;
+    color: white;
+    font-weight: 500;
+}
+
+.photo {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+}
+
+
+.contact h2 {
+    color: #099d8d;
+    text-align: center;
+    font-family: var(--font-title);
+    font-size: 24px;
+    padding: 30px;
+    font-weight: 500;
+}
+
+.contact-1 {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: #54585A ;
+    margin: 0 auto ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-2 {
+    font-family: var(--font-body);
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    color: #54585A ;
+}
+
+.form {
+    padding-top: 58px;
+    width: 290px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: #54585a;
+}
+
+.form input {
+    width: 290px;
+    height: 45px;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+
+.input__mensaje::placeholder {
+    position: relative;
+    bottom: 30px;
+}
+
+.obligatory {
+    color: var(--font-color-tittle);
+}
+
+
+#mensaje {
+    height: 105px;
+}
+
+.button {
+    width: 290px;
+    height: 45px;
+    background-color: #099d8d;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-1 {
+    font-family: var(--font-body) ;
+    font-size: 14px;
+    color: #b8b8b9;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-2 {
+    font-family: var(--font-body);
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 114px;
+    font-weight: 600;
+    color: #b8b8b9;
+    
+}
+
+.footer-contact img {
+    width: 115.9px;
+}
+
+.logo {
+   height: 45px;
+   margin-right: 30px;
+}
+

@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./scss/main.scss">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,73 +14,7 @@
 </head>
 <body>
 
-    <header class="header-contact">
-        <div class="photo">
-                <h1 class="title">NOMBRE DEL GRUPO</h1>
-            <nav class="nav-listado">
-                <ul class="lista">
-                    <li class="li"> <a href="">EQUIPO</a></li>
-                    <li class="li"> <a href="">QUIENES SOMOS</a></li>
-                    <li class="li"> <a href="">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>  
-        <section class="contact"> 
-            <div class="container">
-                <h2>CONTACTO</h2>
-            
-                    <p class="contact-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                    <p class="contact-2"> Todos los campos marcados con <span class="obligatory">*</span> son obligatorios.</p>
-
-            </div>
-        </section>
-        
-        <section class="form">
-            <div class="container">
-
-                 <form action="" >
-
-                    <label for="Nombre">
-                        <span>Nombre Completo <span class="obligatory">*</span></span> <br>
-                        <input type="text" placeholder="Nombre..." id="Nombre">
-
-                    </label> <br>
-
-                    <label for="email">
-                        <span>Email <span class="obligatory">*</span></span> <br>
-                        <input type="email" placeholder="Email" id="email">
-                    </label> <br>
-
-                    <label for="telefono">
-                        <span>Teléfono</span> <br>
-                        <input type="text" placeholder="Ej.123456789" id="telefono">
-                    </label> <br>
-
-                    <label for="mensaje">
-                        <span>Mensaje</span> <br>
-                        <input type="text" placeholder="¿Qué necesitas?" id="mensaje">
-                    </label>
-
-                </form>
-
-                <button class="button">ENVIAR</button>
-            </div>
-        </section>
-            
-    </main>
-
-    <footer class="footer-contact">
-        <p class="footer-1">Nombre del grupo © 2024</p>
-
-        <p class="footer-2">EQUIPO <br>QUIENES SOMOS <br>CONTACTO</p>
-
-        <img class="logo" src="./images/logo-adalab.png" alt="Logo Adalab">
-
-    </footer>
-
+<load src="partials/formulario.html"/>
     
 </body>
 </html>

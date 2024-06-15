@@ -1,0 +1,48 @@
+.profile {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    margin: 0 auto;
+
+}
+
+.title-quienes-somos {
+    color:#099d8d; 
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+}
+
+.image-div {
+    width: 180px;
+    height: 180px;
+    background-color: #dee6e5;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.name {
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: normal;
+    height: 45px;
+    text-align: center;
+}
+
+.description {
+    width: 290px;
+    font-family: var(--font-body);
+    color: #54585a;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.icons {
+    color: #099d8d;
+}
+
