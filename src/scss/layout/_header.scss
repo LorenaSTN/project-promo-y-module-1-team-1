@@ -49,11 +49,6 @@
 
 //Estilos subtitulo blanco flotante
 
-.section-div-lorem {
-  display: flex;
-  justify-content: center;
-  transform: translateY(-50px);
-}
 
 .div-lorem {
   transform: translateY(-40px);
@@ -107,6 +102,7 @@
     justify-content: space-between;
     height: 84px;
     opacity: $opacity;
+    align-items: center;
   }
 
   .nav {
@@ -133,4 +129,24 @@
     font-size: 2rem;
     text-align: left;
   }
+
+.float-header {
+  display: flex;
+  justify-content: left;
 }
+.div-float-header {
+width: 600px;
+margin-left: 60px;
+background-color: rgba(247, 245, 245, 0.555);
+transform: none;
+position: absolute;
+top: -59px;
+
+}
+.tittle-float-header {
+font-size: 1.7rem;
+text-align: left;
+
+}
+}
+
