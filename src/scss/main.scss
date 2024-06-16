@@ -6,6 +6,10 @@
 @import "layout/formulario.scss";
 @import "layout/footer.scss";
 
+.hidden {
+  display: none;
+}
+
 // /* Shama  */
 // /* .header {
 //     background-colgit 0);
@@ -211,7 +215,6 @@
 
 /*Aquí he tenido que creear un nuevo contenedor para la section-2, pero si pongo margin: 0 auto; en el mismo section parece que también se centra*/
 
-
 //SECCION EQUIPO
 .section-2 {
   background-color: #fff;
@@ -328,47 +331,34 @@
   font-family: $fontTitle;
 }
 
-
 @media screen and (min-width: 768px) {
-
   //media queris "EQUIPO"
-  
+
   .section-2 {
     width: 100%;
     height: 300px;
     margin: 0;
-  
   }
   .parrafo-lorem-2 {
     width: 100%;
-  
   }
   .parrafo-vivamus-2 {
-    width: 100%;  
+    width: 100%;
   }
-
 
   // ZONA GRIS
-  
-  .elemento-gris-contactos{
-    width: 100% ;
+
+  .elemento-gris-contactos {
+    width: 100%;
     height: auto;
     max-width: none;
-    margin:0;
+    margin: 0;
     background: #b8b8b9;
-    padding:20px 0;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
-    justify-content: center
-    
-    
+    justify-content: center;
   }
-
-
-
-
-
- 
 }
 @media screen and (min-width: 1200px) {
   /* Desktop */
