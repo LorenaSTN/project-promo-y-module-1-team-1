@@ -43,16 +43,31 @@
 .icons {
   color: #099d8d;
 }
+.social-media {
+  text-align: center;
+  padding-top: 5px;
+}
 
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
   .profile {
     width: 100%;
+    max-width: 760px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     gap: 20px;
 
+    &.derecha {
+      justify-content: end;
+      flex-direction: row-reverse;
+      .text-div {
+        align-items: flex-end;
+        .description {
+          text-align: right;
+        }
+      }
+    }
   }
 
   .text-div {
@@ -60,14 +75,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    
-    
-
   }
 
   .description {
     width: 500px;
     text-align: left;
   }
-  
 }
