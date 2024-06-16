@@ -161,8 +161,15 @@ nav {
     }
 
     .buttondiv {
-        position: right;
+       display: flex;
+       justify-content: flex-end;
     }
- 
+}
+
+@media (min-width: 1200px) {
+    .contacto {
+        width: 60%;
+    }
+
 }
 
