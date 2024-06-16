@@ -28,31 +28,36 @@
       src="https://kit.fontawesome.com/3c33987a45.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./assets/main-5b79f15e.css">
+    <link rel="stylesheet" href="./assets/main-4d539aa0.css">
   </head>
   <body>
     <!-- Header  -->
-    <!-- HEADER -->
-
-
-
-
-<header class="header">
-  <h1 class="header-title">NOMBRE DEL GRUPO</h1>
+    <header class="header">
+   <h1 class="header-title">&#8249; Game Retro Code &#8250;</h1>
   <nav class="nav">
     <ul class="list">
-      <li class="list-item"> <a href="./index.html">EQUIPO</a></li>
-      <li class="list-item"> <a href="./quienessomos.html">QUIENES SOMOS</a></li>
-      <li class="list-item"> <a href="./formulario.html">CONTACTO</a></li>
+      <li class="list-item"><a href="./index.html#main">EQUIPO</a></li>
+      <li class="list-item">
+        <a href="./index.html#quienesSomos">QUIENES SOMOS</a>
+      </li>
+      <li class="list-item"><a href="../more-info.html">CONTACTO</a></li>
     </ul>
-     
   </nav>
 </header>
+
 <div class="background">
-  <img class="img" src="./images/gameboyfondo.jpg">
+  <img class="img" src="./images/gameboyfondo.jpg" />
 </div>
 
-    <main class="">
+<section class="float-header {=$classFloat}">
+  <div class="div-float-header">
+    <h2 class="tittle-float-header">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </h2>
+  </div>
+</section>
+
+    <main class="main" id="main">
   <section class="section-2">
     <h1 class="title-2">EQUIPO</h1>
     <p class="parrafo-lorem-2">
@@ -70,129 +75,161 @@
     </p>
   </section>
 
+  <!-- ZONA GRIS -->
+
   <div class="elemento-flotante">
     <div class="flotante"></div>
   </div>
-
+<!-- 
+  en la sección gris he metido en contenedores div cada titulo y parrafo porque necesitaba hacer un display flex en el mediaqueris para cambiarlo de disposición -->
   <section class="elemento-gris-contactos">
-    <h1 class="title-3">EQUIPO</h1>
-    <p class="parrafo-lorem-3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum
-      ullamcorper mauris, vel convallis metus eleifend in. Cras hendrerit at
-      ante eget auctor. Nunc maximus ipsum non volutpat convallis. Morbi
-      interdum neque et aliquam varius.
-    </p>
+    <div class="section-fortalezas">
+      <h1 class="title-3">Fortalezas</h1>
+      <p class="parrafo-lorem-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum
+        ullamcorper mauris, vel convallis metus eleifend in. Cras hendrerit at
+        ante eget auctor. Nunc maximus ipsum non volutpat convallis. Morbi
+        interdum neque et aliquam varius.
+      </p>
+    </div>
 
-    <p class="parrafo-vivamus-3">
-      Vivamus feugiat eu sem sed eleifend. Morbi efficitur lorem eget justo
-      sodales feugiat. Vestibulum tristique sed ante semper elementum. Orci
-      varius natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus
-    </p>
+    <div class="section-debilidades">
+      <h1 class="title-3">Debilidades</h1>
+
+      <p class="parrafo-vivamus-3">
+        Vivamus feugiat eu sem sed eleifend. Morbi efficitur lorem eget justo
+        sodales feugiat. Vestibulum tristique sed ante semper elementum. Orci
+        varius natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus
+      </p>
+    </div>
   </section>
 </main>
 
 
+    <!-- Apartado Quienes Somos -->
 
-     
+    <section class="quienes-somos" id="quienesSomos">
 
-      <!-- Apartado Quienes Somos -->
-
-      <section class="quienes-somos">
-    <div class="profile">
-        <h1 class="title-quienes-somos">QUIÉNES SOMOS</h1>
-
-        <div class="image-div">
-
-        </div>
-
-        <h2 class="name">Yessenia Colocho</h2>
-
-        <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-
-        <div class="social-media">
-            <a href="https://www.linkedin.com/in/yessenia-colocho/"> <i class="fa-brands fa-linkedin icons"> </i> </a> ·
-            <a href="https://github.com/YesseniaColocho"> <i class="fa-brands fa-github icons"> </i> </a> ·
-            <a href="mailto:"> <i class="fa-solid fa-envelope icons"></i> </a> 
-        </div>
-
-    </div>
+    <h1 class="title-quienes-somos">QUIÉNES SOMOS</h1>
 
     <div class="profile">
+  <div class="image-div">
+    <img src="./images/foto_yesse.png" />
+  </div>
 
-        <div class="image-div">
+  <h2 class="name">Yessenia Colocho</h2>
 
-        </div>
+  <p class="description">
+    ¡Hola! Soy Yessenia Colocho y desde pequeña me he sentido atraída por el mundo del arte y del diseño,
+     pero jamás imaginé que me sentiría tan unida al mundo de la tecnología.
+      Hasta que se me presentó la oportunidad de hacer un curso intensivo de UI/UX. 
+      En ese momento me di cuenta de las increíbles posibilidades de la programación, adentrándome, sin casi darme cuenta, en un mundo fascinante donde el arte es trasportado a partir de unas líneas de código. 
+  </p>
 
-        <h2 class="name">Lorena Sánchez-Toril</h2>
+  <div class="social-media">
+    <a href="https://www.linkedin.com/in/yessenia-colocho/"><i class="fa-brands fa-linkedin icons"></i></a> ·
+    <a href="https://github.com/YesseniaColocho"><i class="fa-brands fa-github icons"></i></a> ·
+    <a href="mailto:{=$mailto}"><i class="fa-solid fa-envelope icons"></i></a>
+  </div>
+</div>
 
-        <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-
-        <div class="icons">
-            <a href="https://www.linkedin.com/in/lorena-s-4535b5102/"> <i class="fa-brands fa-linkedin icons"> </i> </a> ·
-            <a href="https://github.com/LorenaSTN"> <i class="fa-brands fa-github icons"> </i> </a> ·
-            <a href="mailto:lorenstn@hotmail.com"> <i class="fa-solid fa-envelope icons"></i> </a> 
-        </div>
-
-    </div>
-
-    <div class="profile">
-
-        <div class="image-div">
-
-        </div>
-
-        <h2 class="name">Laura Parra</h2>
-
-        <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-
-        <div class="icons">
-            <a href="https://www.linkedin.com/"> <i class="fa-brands fa-linkedin icons"> </i> </a> ·
-            <a href="https://github.com/laura-pf"> <i class="fa-brands fa-github icons"> </i> </a> ·
-            <a href="mailto:"> <i class="fa-solid fa-envelope icons"></i> </a> 
-        </div>
-
-    </div>
 
     <div class="profile">
+  <div class="image-div">
+    <img src="./images/foto_yesse.png" />
+  </div>
 
-        <div class="image-div">
+  <h2 class="name">Lorena Sánchez-Toril</h2>
 
-        </div>
+  <p class="description">
+    {=$desc}
+  </p>
 
-        <h2 class="name">Shama Garijo</h2>
+  <div class="social-media">
+    <a href="https://www.linkedin.com/in/lorena-s-4535b5102/"><i class="fa-brands fa-linkedin icons"></i></a> ·
+    <a href="https://github.com/LorenaSTN"><i class="fa-brands fa-github icons"></i></a> ·
+    <a href="mailto:{=$mailto}"><i class="fa-solid fa-envelope icons"></i></a>
+  </div>
+</div>
 
-        <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
 
-        <div class="icons">
-            <a href="https://www.linkedin.com/"> <i class="fa-brands fa-linkedin icons"> </i> </a> ·
-            <a href="https://github.com/ShamaGarijo"> <i class="fa-brands fa-github icons"> </i> </a> ·
-            <a href="mailto:"> <i class="fa-solid fa-envelope icons"></i> </a> 
-        </div>
+    <div class="profile">
+  <div class="image-div">
+    <img src="./images/foto_yesse.png" />
+  </div>
 
-    </div>
+  <h2 class="name">Laura Parra</h2>
+
+  <p class="description">
+    {=$desc}
+  </p>
+
+  <div class="social-media">
+    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin icons"></i></a> ·
+    <a href="https://github.com/laura-pf"><i class="fa-brands fa-github icons"></i></a> ·
+    <a href="mailto:{=$mailto}"><i class="fa-solid fa-envelope icons"></i></a>
+  </div>
+</div>
+
+
+    <div class="profile">
+  <div class="image-div">
+    <img src="./images/foto_yesse.png" />
+  </div>
+
+  <h2 class="name">Shama Garijo</h2>
+
+  <p class="description">
+    {=$desc}
+  </p>
+
+  <div class="social-media">
+    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin icons"></i></a> ·
+    <a href="https://github.com/ShamaGarijo"><i class="fa-brands fa-github icons"></i></a> ·
+    <a href="mailto:{=$mailto}"><i class="fa-solid fa-envelope icons"></i></a>
+  </div>
+</div>
+
 
 </section>
 </main>
 
+    <footer class="footer">
+  <div class="footer-contact">
 
-<footer class="footer-contact">
     <p class="footer-1">Nombre del grupo © 2024</p>
 
-    <p class="footer-2">EQUIPO <br>QUIENES SOMOS <br>CONTACTO</p>
+    <div class="elemento-equipo">
+    <p class="footer-2">EQUIPO <br />QUIENES SOMOS <br />CONTACTO</p>
+  </div>
 
-    <img class="logo" src="./images/logo-adalab.png" alt="Logo Adalab">
-
+  <div class="logo-padre">
+    <img class="logo-adalav" src="./images/logo-adalab.png" alt="Logo Adalab" />
+  </div>
+  </div>
 </footer>
 
+<!-- //FOOTER ESPECIFICO MEDIA QUERIS -->
 
-</body>
+<footer class="footer-responsive">
+  <div class="footer-contact">
+
+    <p class="footer-1">Nombre del grupo © 2024</p>
+
+    <div class="logo-padre">
+      <img class="logo-adalav" src="./images/logo-adalab.png" alt="Logo Adalab" />
+    </div>
+  
+  </div>
+
+  <div class="elemento-equipo">
+    <p class="footer-2">EQUIPO <br />QUIENES SOMOS <br />CONTACTO</p>
+  </div>
+
+  </footer>
+
+
+
+  </body>
 </html>
