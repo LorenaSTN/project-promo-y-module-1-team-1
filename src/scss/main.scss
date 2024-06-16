@@ -6,6 +6,10 @@
 @import "layout/formulario.scss";
 @import "layout/footer.scss";
 
+.hidden {
+  display: none;
+}
+
 // /* Shama  */
 // /* .header {
 //     background-colgit 0);
@@ -211,7 +215,6 @@
 
 /*Aquí he tenido que creear un nuevo contenedor para la section-2, pero si pongo margin: 0 auto; en el mismo section parece que también se centra*/
 
-
 //SECCION EQUIPO
 .section-2 {
   background-color: #fff;
@@ -328,9 +331,7 @@
   font-family: $fontTitle;
 }
 
-
 @media screen and (min-width: 768px) {
-
   //media queris "EQUIPO"
 
   .section-2 {
@@ -346,7 +347,6 @@
   .parrafo-vivamus-2 {
     width: 100%;
   }
-
 
   // ZONA GRIS
 

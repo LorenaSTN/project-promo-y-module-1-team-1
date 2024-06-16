@@ -3,7 +3,6 @@
   width: 100%;
 }
 
-
 //Estilos header
 
 .header {
@@ -46,15 +45,31 @@
 
 .list-item a {
   color: white;
-
 }
-
-
-
 
 //Estilos subtitulo blanco flotante
 
 
+.div-lorem {
+  transform: translateY(-40px);
+  width: 75%;
+  background-color: white;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.h2 {
+  font-family: var(--font-body);
+  font-size: 18px;
+  text-align: center;
+  /*En el ejemplo no se ve alineado del todo*/
+  font-weight: 645;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+
+  color: var(--font-color-subtitle);
+}
 .float-header {
   display: flex;
   justify-content: center;
@@ -80,7 +95,6 @@
   color: var(--font-color-subtitle);
 }
 
-
 @media screen and (min-width: 768px) {
   .header {
     background-color: $fontHeader;
@@ -91,27 +105,30 @@
     align-items: center;
   }
 
-
-
- 
-
-  
-
   .nav {
     display: flex;
     align-items: center;
     gap: 10px;
     background-color: $fontHeader;
-    
   }
 
   //texto flotante header
-  
- 
-.background {
-position: relative;
 
-}
+  .background {
+    position: relative;
+  }
+
+  .div-lorem {
+    margin-left: 30px;
+    background-color: rgba(247, 245, 245, 0.555);
+    transform: none;
+    position: absolute;
+    bottom: 5px;
+  }
+  .h2 {
+    font-size: 2rem;
+    text-align: left;
+  }
 
 .float-header {
   display: flex;
