@@ -11,3 +11,31 @@
 .logo-padre{
   padding-bottom: 20px;
 }
+
+.footer-responsive{
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+  display: none;
+   }
+   .footer-contact{
+    border: none
+   }
+.footer-responsive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px; 
+  margin-bottom: 60px;
+  height: 140px;
+  border-top: 1px solid rgb(201, 201, 201);
+
+  .logo-padre {
+    padding-top: 30px;
+  }
+
+
+}
+}
