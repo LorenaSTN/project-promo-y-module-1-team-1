@@ -147,7 +147,12 @@ nav {
 
 @media (min-width:768px){
     .title {
-        ;
+        display: inline;
+    }
+
+    nav {
+        display: inline-block;
+        background-color: #099d8d ;
     }
 }
 

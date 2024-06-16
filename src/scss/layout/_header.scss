@@ -13,13 +13,11 @@
   z-index: 3;
 }
 
-
-
 .header-title {
   background: $fontHeader;
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 20px;
   font-family: $fontTitle;
   color: white;
   font-weight: 500;
@@ -30,7 +28,6 @@
 
 .nav {
   background: rgb(64, 224, 208);
-  display: flex;
   color: white;
   font-family: $fontTitle;
   display: flex;
@@ -57,7 +54,11 @@
 
 //Estilos subtitulo blanco flotante
 
-
+.section-div-lorem {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50px);
+}
 
 .div-lorem {
     transform: translateY(-40px);
@@ -70,7 +71,6 @@
 }
 
 .h2 {
-
   font-family: var(--font-body);
   font-size: 18px;
   text-align: center;
@@ -79,7 +79,32 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.39;
-  color: var(--font-color-subtitle)
+
+  color: var(--font-color-subtitle);
+}
+.float-header {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50px);
+  /*esta propiedad aqui o en el div float header*/
+}
+
+.div-float-header {
+  width: 90%;
+  min-width: 340px;
+  background-color: white;
+  padding: 15px;
+}
+
+.tittle-float-header {
+  font-family: var(--font-body);
+  font-size: 22px;
+  text-align: center;
+  font-weight: 645;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  color: var(--font-color-subtitle);
 }
 
 
@@ -126,3 +151,4 @@ text-align: left;
 
 }
 }
+
