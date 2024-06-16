@@ -3,23 +3,25 @@
   width: 100%;
 }
 
+<<<<<<< HEAD
+header {
+=======
 
 //Estilos header
 
 .header {
+>>>>>>> c6a157adec7ea2d68281567afe0033bc83e3f107
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 3;
 }
 
-
-
 .header-title {
   background: $fontHeader;
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 20px;
   font-family: $fontTitle;
   color: white;
   font-weight: 500;
@@ -30,7 +32,6 @@
 
 .nav {
   background: rgb(64, 224, 208);
-  display: flex;
   color: white;
   font-family: $fontTitle;
   display: flex;
@@ -38,6 +39,12 @@
   padding: 20px;
   font-weight: 500;
   opacity: $opacity;
+<<<<<<< HEAD
+  align-items: center;
+  span{
+    text-align: center;
+  }
+=======
 }
 .list {
   display: flex;
@@ -50,6 +57,7 @@
 .list-item a {
   color: white;
 
+>>>>>>> c6a157adec7ea2d68281567afe0033bc83e3f107
 }
 
 
@@ -61,21 +69,15 @@
   display: flex;
   justify-content: center;
   transform: translateY(-50px);
-  
-
 }
 
-
 .div-lorem {
-
   width: 75%;
   background-color: rgba(247, 245, 245, 0.555);
   padding: 15px;
-
 }
 
 .h2 {
-
   font-family: var(--font-body);
   font-size: 18px;
   text-align: center;
@@ -84,6 +86,34 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.39;
+<<<<<<< HEAD
+  color: var(--font-color-subtitle);
+}
+.float-header {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50px);
+  /*esta propiedad aqui o en el div float header*/
+}
+
+.div-float-header {
+  width: 90%;
+  min-width: 340px;
+  background-color: white;
+  padding: 15px;
+}
+
+.tittle-float-header {
+  font-family: var(--font-body);
+  font-size: 22px;
+  text-align: center;
+  font-weight: 645;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  color: var(--font-color-subtitle);
+}
+=======
   color: var(--font-color-subtitle)
 }
 
@@ -109,3 +139,4 @@
 
 
 }
+>>>>>>> c6a157adec7ea2d68281567afe0033bc83e3f107
