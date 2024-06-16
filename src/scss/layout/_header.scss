@@ -3,14 +3,10 @@
   width: 100%;
 }
 
-<<<<<<< HEAD
-header {
-=======
 
 //Estilos header
 
 .header {
->>>>>>> c6a157adec7ea2d68281567afe0033bc83e3f107
   width: 100%;
   position: sticky;
   top: 0;
@@ -39,12 +35,6 @@ header {
   padding: 20px;
   font-weight: 500;
   opacity: $opacity;
-<<<<<<< HEAD
-  align-items: center;
-  span{
-    text-align: center;
-  }
-=======
 }
 .list {
   display: flex;
@@ -57,7 +47,6 @@ header {
 .list-item a {
   color: white;
 
->>>>>>> c6a157adec7ea2d68281567afe0033bc83e3f107
 }
 
 
@@ -72,9 +61,13 @@ header {
 }
 
 .div-lorem {
-  width: 75%;
-  background-color: rgba(247, 245, 245, 0.555);
-  padding: 15px;
+    transform: translateY(-40px);
+    width: 75%;
+    background-color: white;
+    padding: 15px;
+    margin: 0 auto;
+
+
 }
 
 .h2 {
@@ -86,7 +79,7 @@ header {
   font-stretch: normal;
   font-style: normal;
   line-height: 1.39;
-<<<<<<< HEAD
+
   color: var(--font-color-subtitle);
 }
 .float-header {
@@ -113,9 +106,6 @@ header {
   line-height: 1.39;
   color: var(--font-color-subtitle);
 }
-=======
-  color: var(--font-color-subtitle)
-}
 
 
 @media screen and (min-width: 768px) {
@@ -124,7 +114,12 @@ header {
     display: flex;
     justify-content: space-between;
     height: 84px;
+    opacity: $opacity;
   }
+
+ 
+
+  
 
   .nav {
     display: flex;
@@ -134,9 +129,26 @@ header {
     
   }
 
+  //texto flotante header
   
-  
-
+ 
+.background {
+position: relative;
 
 }
->>>>>>> c6a157adec7ea2d68281567afe0033bc83e3f107
+
+.div-lorem {
+margin-left: 30px;
+background-color: rgba(247, 245, 245, 0.555);
+transform: none;
+position: absolute;
+bottom: 5px;
+
+}
+.h2 {
+font-size: 2rem;
+text-align: left;
+
+}
+}
+
