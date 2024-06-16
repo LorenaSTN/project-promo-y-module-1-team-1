@@ -36,11 +36,9 @@ nav {
     font-weight: 500;
 }
 
-.photo {
-    background-color: rgb(255, 255, 255);
+.header img {
     height: 300px;
 }
-
 
 .contact h2 {
     color: #099d8d;
@@ -147,12 +145,13 @@ nav {
 
 @media (min-width:768px){
     .title {
-        display: inline;
+        display: inline-block;
     }
 
     nav {
         display: inline-block;
         background-color: #099d8d ;
+
     }
 }
 
