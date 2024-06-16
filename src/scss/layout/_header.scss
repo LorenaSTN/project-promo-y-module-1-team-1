@@ -57,20 +57,15 @@
 
 //Estilos subtitulo blanco flotante
 
-.section-div-lorem {
-  display: flex;
-  justify-content: center;
-  transform: translateY(-50px);
-  
-
-}
 
 
 .div-lorem {
+    transform: translateY(-40px);
+    width: 75%;
+    background-color: white;
+    padding: 15px;
+    margin: 0 auto;
 
-  width: 75%;
-  background-color: rgba(247, 245, 245, 0.555);
-  padding: 15px;
 
 }
 
@@ -94,7 +89,12 @@
     display: flex;
     justify-content: space-between;
     height: 84px;
+    opacity: $opacity;
   }
+
+ 
+
+  
 
   .nav {
     display: flex;
@@ -104,4 +104,25 @@
     
   }
 
+  //texto flotante header
+  
+ 
+.background {
+position: relative;
+
+}
+
+.div-lorem {
+margin-left: 30px;
+background-color: rgba(247, 245, 245, 0.555);
+transform: none;
+position: absolute;
+bottom: 5px;
+
+}
+.h2 {
+font-size: 2rem;
+text-align: left;
+
+}
 }
