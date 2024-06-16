@@ -3,7 +3,14 @@
   width: 100%;
 }
 
+<<<<<<< HEAD
 header {
+=======
+
+//Estilos header
+
+.header {
+>>>>>>> c6a157adec7ea2d68281567afe0033bc83e3f107
   width: 100%;
   position: sticky;
   top: 0;
@@ -11,7 +18,7 @@ header {
 }
 
 .header-title {
-  background: #099d8d;
+  background: $fontHeader;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -28,15 +35,33 @@ header {
   color: white;
   font-family: $fontTitle;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px;
   font-weight: 500;
   opacity: $opacity;
+<<<<<<< HEAD
   align-items: center;
   span{
     text-align: center;
   }
+=======
 }
+.list {
+  display: flex;
+  gap: 30px;
+  font-family: var(--font-title);
+
+  font-size: 15px;
+}
+
+.list-item a {
+  color: white;
+
+>>>>>>> c6a157adec7ea2d68281567afe0033bc83e3f107
+}
+
+
+
 
 //Estilos subtitulo blanco flotante
 
@@ -61,6 +86,7 @@ header {
   font-stretch: normal;
   font-style: normal;
   line-height: 1.39;
+<<<<<<< HEAD
   color: var(--font-color-subtitle);
 }
 .float-header {
@@ -87,3 +113,30 @@ header {
   line-height: 1.39;
   color: var(--font-color-subtitle);
 }
+=======
+  color: var(--font-color-subtitle)
+}
+
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-color: $fontHeader;
+    display: flex;
+    justify-content: space-between;
+    height: 84px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: $fontHeader;
+    
+  }
+
+  
+  
+
+
+}
+>>>>>>> c6a157adec7ea2d68281567afe0033bc83e3f107
