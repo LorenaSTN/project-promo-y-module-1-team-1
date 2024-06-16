@@ -54,34 +54,7 @@
 
 //Estilos subtitulo blanco flotante
 
-.section-div-lorem {
-  display: flex;
-  justify-content: center;
-  transform: translateY(-50px);
-}
 
-.div-lorem {
-    transform: translateY(-40px);
-    width: 75%;
-    background-color: white;
-    padding: 15px;
-    margin: 0 auto;
-
-
-}
-
-.h2 {
-  font-family: var(--font-body);
-  font-size: 18px;
-  text-align: center;
-  /*En el ejemplo no se ve alineado del todo*/
-  font-weight: 645;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.39;
-
-  color: var(--font-color-subtitle);
-}
 .float-header {
   display: flex;
   justify-content: center;
@@ -115,7 +88,10 @@
     justify-content: space-between;
     height: 84px;
     opacity: $opacity;
+    align-items: center;
   }
+
+
 
  
 
@@ -137,16 +113,21 @@ position: relative;
 
 }
 
-.div-lorem {
-margin-left: 30px;
+.float-header {
+  display: flex;
+  justify-content: left;
+}
+.div-float-header {
+width: 600px;
+margin-left: 60px;
 background-color: rgba(247, 245, 245, 0.555);
 transform: none;
 position: absolute;
-bottom: 5px;
+top: -59px;
 
 }
-.h2 {
-font-size: 2rem;
+.tittle-float-header {
+font-size: 1.7rem;
 text-align: left;
 
 }

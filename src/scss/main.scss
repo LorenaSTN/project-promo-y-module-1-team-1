@@ -332,44 +332,70 @@
 @media screen and (min-width: 768px) {
 
   //media queris "EQUIPO"
-  
+
   .section-2 {
-    width: 100%;
-    height: 300px;
-    margin: 0;
-  
+    width: 700px;
+    height: 320px;
+    margin: 0 auto;
+
   }
   .parrafo-lorem-2 {
     width: 100%;
-  
+
   }
   .parrafo-vivamus-2 {
-    width: 100%;  
+    width: 100%;
   }
 
 
   // ZONA GRIS
-  
+
   .elemento-gris-contactos{
-    width: 100% ;
+    width: 100%;
     height: auto;
     max-width: none;
-    margin:0;
-    background: #b8b8b9;
+    margin:0 auto;
     padding:20px 0;
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
+    // gap: 120px;
+
+    .section-fortalezas {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     
-    
+      
+    }
+
+    .section-debilidades {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .parrafo-lorem-3 {
+      width: 80%;
+    }
+
+    .parrafo-vivamus-3{
+      width: 80%;
+    }
+
   }
 
 
 
 
 
- 
+
 }
 @media screen and (min-width: 1200px) {
-  /* Desktop */
+  
 }
