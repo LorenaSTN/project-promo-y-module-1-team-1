@@ -23,36 +23,33 @@
       <form action="https://formspree.io/f/mbjnnkqz" method="POST">
         <label for="Nombre">
           <span>Nombre Completo <span class="obligatory">*</span></span> <br />
-          <input type="text" placeholder="Nombre..." id="Nombre" required/>
+          <input type="text" name="Nombre" placeholder="Nombre..." id="Nombre" required/>
         </label>
         <br />
 
         <label for="email">
           <span>Email <span class="obligatory">*</span></span> <br />
-          <input type="email" placeholder="Email" id="email" required/>
+          <input type="email" name="email" placeholder="Email" id="email" required/>
         </label>
         <br />
 
         <label for="telefono">
           <span>Teléfono</span> <br />
-          <input type="tel" placeholder="Ej.123456789" id="telefono" />
+          <input type="tel" name="telefono" placeholder="Ej.123456789" id="telefono" />
         </label>
         <br />
 
         <label for="mensaje">
           <span>Mensaje</span> <br />
-          <input
-            type="text"
-            class="input__mensaje"
-            placeholder="¿Qué necesitas?"
-            id="mensaje"
-          />
+           <input type="text" name="mensaje" class="input__mensaje" placeholder="¿Qué necesitas?" id="mensaje">
         </label>
-      </form>
+     
       <div class="buttondiv">
-      <button class="button" id="button">ENVIAR</button>
-     </div>
+      <button input type="submit" class="button" id="button">ENVIAR</button>
     </div>
+    </form>
+    </div>
+    
   </section>
 </main>
 
