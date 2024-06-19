@@ -144,17 +144,7 @@ nav {
    height: 45px;
    margin-right: 30px;
 }
-.element-flex{
-    display: grid;
-    grid-template-columns: 7fr 3fr;
-    gap: 20px;
-}
-.email, .telefono{
-    width: 100%;
-    input{
-        width: 100%;
-    }
-}
+
 
 
 @media (min-width:768px){
@@ -185,6 +175,20 @@ nav {
     .form {
         width: 750px;
     }
+
+    .element-flex{
+        display: grid;
+        grid-template-columns: 7fr 3fr;
+        gap: 20px;
+    }
+
+    .email, .telefono{
+        width: 100%;
+        input{
+            width: 100%;
+        }
+    }
+    
 
 
 
