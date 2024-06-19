@@ -168,15 +168,21 @@ nav {
 
 @media (min-width: 1200px) {
     .contacto {
-        width: 60%
+        width: 65%
     }
 
     #email {
-        width: 50%;
+        width: 40vw;
     }
     #telefono {
-        width: 20%;
+        width: 20vw;
     }
+
+    .formulariounido {
+        display: flex;
+    }
+
+
 
 }
 
