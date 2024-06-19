@@ -1,58 +1,74 @@
 <main>
-  <section class="contact" >
+  <section class="contact">
     <div class="container">
       <h2>CONTACTO</h2>
 
-        <div class="contacto">
-      <p class="contact-1">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat
-      </p>
-      <p class="contact-2">
-        Todos los campos marcados con <span class="obligatory">*</span> son
-        obligatorios.
-      </p>
-    </div>
+      <div class="contacto">
+        <p class="contact-1">
+          Si quieres contactar con nosotras, rellena el siguiente formulario y
+          nos pondremos en contacto contigo en la mayor brevedad posible.
+        </p>
+        <p class="contact-2">
+          Todos los campos marcados con <span class="obligatory">*</span> son
+          obligatorios.
+        </p>
+      </div>
     </div>
   </section>
 
   <section class="form">
     <div class="container formcontainer">
-      <form action="">
+      <form action="https://formspree.io/f/mbjnnkqz" method="POST">
         <label for="Nombre">
           <span>Nombre Completo <span class="obligatory">*</span></span> <br />
-          <input type="text" placeholder="Nombre..." id="Nombre" required/>
+          <input
+            type="text"
+            name="Nombre"
+            placeholder="Nombre..."
+            id="Nombre"
+            required
+          />
         </label>
         <br />
 
         <div class="element-flex">
-        <label for="email" class="email">
-          <span>Email <span class="obligatory">*</span></span> <br />
-          <input type="email" placeholder="Email" id="email" required/>
-        </label>
+          <label for="email" class="email">
+            <span>Email <span class="obligatory">*</span></span> <br />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              id="email"
+              required
+            />
+          </label>
 
-        <label for="telefono" class="telefono">
-          <span>Teléfono</span> <br />
-          <input type="tel" placeholder="Ej.123456789" id="telefono" />
-        </label>
-
-      </div>
+          <label for="telefono" class="telefono">
+            <span>Teléfono</span> <br />
+            <input
+              type="tel"
+              name="telefono"
+              placeholder="Ej.123456789"
+              id="telefono"
+            />
+          </label>
+        </div>
 
         <label for="mensaje">
           <span>Mensaje</span> <br />
           <input
             type="text"
+            name="mensaje"
             class="input__mensaje"
             placeholder="¿Qué necesitas?"
             id="mensaje"
           />
         </label>
+
+        <div class="buttondiv">
+          <button input type="submit" class="button" id="button">ENVIAR</button>
+        </div>
       </form>
-      <div class="buttondiv">
-      <button class="button" id="button">ENVIAR</button>
-     </div>
     </div>
   </section>
 </main>

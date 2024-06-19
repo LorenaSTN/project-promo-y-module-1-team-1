@@ -96,9 +96,9 @@ nav {
 }
 
 .input__mensaje::placeholder {
-    position: relative;
+     position: relative;
     bottom: 30px;
-}
+ }
 
 .obligatory {
     color: var(--font-color-tittle);
@@ -164,7 +164,7 @@ nav {
     }
 
     .form {
-        width: 70%;
+        width: 500px;
     }
 
     #button {
@@ -179,8 +179,15 @@ nav {
 
 @media (min-width: 1200px) {
     .contacto {
-        width: 60%
+        width: 65%
     }
+
+    .form {
+        width: 750px;
+    }
+
+
+
 
 }
 
