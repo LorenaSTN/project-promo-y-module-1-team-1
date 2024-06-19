@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/main-79c67f79.css">
+    <link rel="stylesheet" href="./assets/main-f5b77d51.css">
   </head>
   <body>
     <header class="header">
@@ -44,19 +44,20 @@
 </section>
 
     <main>
-  <section class="contact" >
+  <section class="contact">
     <div class="container">
       <h2>CONTACTO</h2>
 
-        <div class="contacto">
-      <p class="contact-1">
-        Si quieres contactar con nosotras, rellena el siguiente formulario y nos pondremos en contacto contigo en la mayor brevedad posible.  
-      </p>
-      <p class="contact-2">
-        Todos los campos marcados con <span class="obligatory">*</span> son
-        obligatorios.
-      </p>
-    </div>
+      <div class="contacto">
+        <p class="contact-1">
+          Si quieres contactar con nosotras, rellena el siguiente formulario y
+          nos pondremos en contacto contigo en la mayor brevedad posible.
+        </p>
+        <p class="contact-2">
+          Todos los campos marcados con <span class="obligatory">*</span> son
+          obligatorios.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -65,38 +66,55 @@
       <form action="https://formspree.io/f/mbjnnkqz" method="POST">
         <label for="Nombre">
           <span>Nombre Completo <span class="obligatory">*</span></span> <br />
-          <input type="text" name="Nombre" placeholder="Nombre..." id="Nombre" required/>
+          <input
+            type="text"
+            name="Nombre"
+            placeholder="Nombre..."
+            id="Nombre"
+            required
+          />
         </label>
         <br />
 
-        <div class="formulariounido">
+        <div class="element-flex">
+          <label for="email" class="email">
+            <span>Email <span class="obligatory">*</span></span> <br />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              id="email"
+              required
+            />
+          </label>
 
-        <label for="email">
-          <span>Email <span class="obligatory">*</span></span> <br />
-          <input type="email" name="email" placeholder="Email" id="email" required/>
-        </label>
-       <br>
-
-      
-        <label for="telefono">
-          <span>Teléfono</span> <br />
-          <input type="tel" name="telefono" placeholder="Ej.123456789" id="telefono" />
-        </label>
-        <br/>
-
-      </div>
+          <label for="telefono" class="telefono">
+            <span>Teléfono</span> <br />
+            <input
+              type="tel"
+              name="telefono"
+              placeholder="Ej.123456789"
+              id="telefono"
+            />
+          </label>
+        </div>
 
         <label for="mensaje">
           <span>Mensaje</span> <br />
-           <input type="text" name="mensaje" class="input__mensaje" placeholder="¿Qué necesitas?" id="mensaje">
+          <input
+            type="text"
+            name="mensaje"
+            class="input__mensaje"
+            placeholder="¿Qué necesitas?"
+            id="mensaje"
+          />
         </label>
-     
-      <div class="buttondiv">
-      <button input type="submit" class="button" id="button">ENVIAR</button>
+
+        <div class="buttondiv">
+          <button input type="submit" class="button" id="button">ENVIAR</button>
+        </div>
+      </form>
     </div>
-    </form>
-    </div>
-    
   </section>
 </main>
 
