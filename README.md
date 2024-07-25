@@ -1,6 +1,6 @@
 # Grupo 1: Game Retro Code
 
-Este es el proyecto web de maquetación de las alumnas Yessenia C, Lorena S., Laura P. y Shama G. La maquetación se hizo a partir de una maquetación vectorial en Zepplin. El trabajo se realizó en grupo a lo largo de casi 2 semanas. El proyecto está realizado sobre el framework Vite.
+Este es el proyecto web de maquetación de las alumnas Yessenia C, Lorena S. y Laura P. La maquetación se hizo a partir de una maquetación vectorial en Zepplin. El trabajo se realizó en grupo a lo largo de casi 2 semanas. El proyecto está realizado sobre el framework Vite.
 
 ---
 
@@ -38,4 +38,3 @@ Una versión corta de este proceso se puede ejecutar con el comando:
 Yessenia Colocho
 Lorena Sánchez-Toril
 Laura Parra
-Shama Garijo
